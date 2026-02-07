@@ -1,0 +1,68 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+  <heading>
+    <h1 id="title">Feedback</h1>
+    <p id="description">Ici vous pouvez me laissez votre avis et m'écrire :)</p>
+  </heading>
+
+    <form id="survey-form">
+
+     <label for="name" value="name" id="name-label">Nom</label>
+     <input type="text" id="name" placeholder="Nom" required>
+      
+     <label for="email" value="email" id="email-label">Email</label>
+     <input type="email" id="email" required placeholder="Email">
+      
+      <label for="number" value="Age" id="number-label">Age</label>
+      <input type="number" id="number" min="0" max="100" placeholder="Age">
+      
+
+      <label for="dropdown">Quelle est votre profession ou       statut</label>
+     <select name="dropdown" id="dropdown">
+      <option value="Sans Emplois">Sans Emplois</option>
+      <option value="Etudiant">Etudiant</option>
+      <option value="Employé">Employé</option>
+      <option value="Autre">Autre</option>
+      <optgroup label="autre">
+      <option value="Handicappé">Handicappé</option>
+      <option value="En réorientation">En réorientation</option>
+      <option value="Ne pas préciser">Ne pas préciser</option>
+      </optgroup>
+     </select>
+     <fieldset>
+       <legend>Test</legend>
+       <label for="Oui" name="Choix">Oui</label>
+       <input type="radio" value="Oui" id="Oui" name="Choix">
+       <label for="Non" name="Choix">Non</label>
+       <input type="radio" value="Non" id="Non" name="Choix">
+       
+     </fieldset>
+      <fieldset>
+       <legend>Test 2</legend>
+       <label for="Oui 2" name="Oui 2">Oui</label>
+       <input type="checkbox" value="Oui 2" id="Oui 2">
+       <label for="Non 2 " name="Non 2">Non</label>
+       <input type="checkbox" value="Non 2" id="Non 2">
+       
+     </fieldset>
+     <fieldset>
+       <label for="textarea" name="textarea">Commentaire</label>
+       <textarea id="commentaire" id="textarea">Commentaire ici</textarea>
+     </fieldset>
+
+     <input type="submit" value="Envoyer" id="submit">
+    </form>
+
+
+  </body>
+</html>
+
+** end of index.html **
+

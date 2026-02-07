@@ -1,0 +1,80 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+
+<table>
+<thead>
+  My Book this year
+
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>Genre</th>
+<th>Publication Year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atomic Habits</td>
+<td>James Clear</td>
+<td>Self improvement</td>
+<td>2018</td>
+
+</tr>
+<tr>
+<td>The 48 laws of power</td>
+<td>Robert Greene</td>
+<td>Self improvement</td>
+<td>1998</td>
+
+</tr>
+<tr>
+<td>How to make friend and influent peoples</td>
+<td>Dale Carnegie</td>
+<td>Self Improvement</td>
+<td>1936</td>
+
+</tr>
+<tr>
+<td>The Milionary FastLane</td>
+<td>M.J de Marco></td>
+<td>Self Improvement</td>
+<td>2011</td>
+
+</tr>
+<tr>
+<td>Thoughts to myself </td>
+<td>Emperor Marcus Aurelius</td>
+<td>Self Improvement</td>
+<td>180 B.C</td>
+
+</tr>
+
+
+
+</tbody>
+<tfoot>
+  <tr>
+   <td colspan="4">Total Books: 5</td>
+
+  </tr>
+</tfoot>
+
+
+</table>
+
+</body>
+
+</html>
+
+** end of index.html **
+
